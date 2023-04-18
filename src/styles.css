@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0d1b2a;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -14,7 +15,6 @@ h1 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 2%;
-  color: #0d1b2a;
 }
 
 .task-container {
@@ -28,7 +28,6 @@ h1 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   padding: 1%;
-  color: #0d1b2a;
 }
 
 .new-task {
@@ -77,10 +76,7 @@ h1 {
   width: 70%;
 }
 
-.submit {
-  cursor: pointer;
-}
-
+.submit,
 .trash-icon {
   cursor: pointer;
 }
@@ -99,5 +95,4 @@ h1 {
   padding-inline: 2px;
   font-size: 1em;
   cursor: pointer;
-  color: #0d1b2a;
 }
