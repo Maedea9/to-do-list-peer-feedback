@@ -1,9 +1,8 @@
-// import './styles.css';
+import './styles.css';
 
 // import {
 //   renderTasks, addTask,
 // } from './modules/functionality.js';
-
 // RENDER TASKS
 const taskList = document.getElementById('taskList');
 
